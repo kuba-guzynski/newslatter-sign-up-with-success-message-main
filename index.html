@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <script defer src="./script.js"></script>
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+
+<body>
+  <div class="main-container" id="main-container">
+    <div class="container">
+      <div class="image-baner"></div>
+      <div class="text-container">
+        <div class="text-frame">
+          <span class="title"> Stay updated!</span>
+          <span class="describe">
+            Join 60,000+ product managers receiving monthly updates on:
+          </span>
+          <div class="list">
+            <div class="list-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                <path d="M6 11.3812L8.73464 14L15 8" stroke="white" stroke-width="2" />
+              </svg>
+              <span class="list-item-text">
+                Product discovery and building what matters
+              </span>
+            </div>
+            <div class="list-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                <path d="M6 11.3812L8.73464 14L15 8" stroke="white" stroke-width="2" />
+              </svg>
+              <span class="list-item-text">
+                Measuring to ensure updates are a success
+              </span>
+            </div>
+            <div class="list-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                <path d="M6 11.3812L8.73464 14L15 8" stroke="white" stroke-width="2" />
+              </svg>
+              <span class="list-item-text">
+                And much more!
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+
+          <form id="form" novalidate>
+            <div class="form-frame">
+              <div class="form-frame-inside">
+                <label for="email">Email address</label>
+                <span aria-live="polite" id="email-error" class="hidden">Valid email required</span>
+              </div>
+
+              <input class="email-input" id="email" name="email" type="email" placeholder="email@company.com" />
+
+            </div>
+
+            <button>
+              <span class="button-text">Subscribe to monthly newsletter</span>
+
+            </button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="message-container hidden" id="message-container">
+    <div class="message-frame">
+      <div class="message">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+          <circle cx="32" cy="32" r="32" fill="url(#paint0_linear_2073_1641)" />
+          <path d="M18.2856 34.6855L26.6198 42.6667L45.7142 24.381" stroke="white" stroke-width="4" />
+          <defs>
+            <linearGradient id="paint0_linear_2073_1641" x1="0" y1="32" x2="64" y2="32" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FF6A3A" />
+              <stop offset="1" stop-color="#FF527B" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="message-title">Thanks for subscribing!</span>
+
+        <span class="message-text"> A confirmation email has been sent to <b>ash@loremcompany.com</b>.
+          Please open it and click the button inside to confirm your subscription.
+        </span>
+      </div>
+
+      <button id="dismiss-button">
+        <span class="button-text"> Dismiss message</span>
+      </button>
+    </div>
+
+  </div>
+
+
+
+
+
+</body>
+
+</html>
