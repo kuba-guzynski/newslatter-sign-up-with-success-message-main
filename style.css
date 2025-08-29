@@ -359,6 +359,7 @@ button:focus {
         flex-shrink: 0;
         border-radius: 1rem;
         border: 0 solid #19182B;
+        background-image: url(./assets/images/illustration-sign-up-tablet.svg);
 
     }
 
@@ -455,6 +456,7 @@ button:focus {
         flex-shrink: 0;
         border-radius: 1rem;
         border: 0 solid #19182B;
+        background-image: url(./assets/images/illustration-sign-up-desktop.svg);
     }
 
     .text-container {
@@ -470,6 +472,11 @@ button:focus {
         width: 100%;
         gap: 2rem;
     }
+
+    .title {
+        font-size: 3.5rem;
+    }
+
 
     .list-item-text {
         width: 23.5rem;
